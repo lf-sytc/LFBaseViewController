@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LFBaseViewController_Example' do
+  pod 'LFBaseViewController', :path => '../'
+
+  target 'LFBaseViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
