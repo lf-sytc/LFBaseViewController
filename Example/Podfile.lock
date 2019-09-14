@@ -1,0 +1,26 @@
+PODS:
+  - LFBaseViewController (0.1.0):
+    - LFBaseViewController/BaseViewController (= 0.1.0)
+    - LFUIKit
+  - LFBaseViewController/BaseViewController (0.1.0):
+    - LFUIKit
+  - LFUIKit (0.1.0)
+
+DEPENDENCIES:
+  - LFBaseViewController (from `../`)
+
+SPEC REPOS:
+  https://github.com/lf-sytc/LFSpecs:
+    - LFUIKit
+
+EXTERNAL SOURCES:
+  LFBaseViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LFBaseViewController: 260de084eb607bafda96e7f0fffeb32488f9da8e
+  LFUIKit: 922afa56d276a09c0a1ea6e003cc3d858c281e57
+
+PODFILE CHECKSUM: b4d972830a19cbef10555b35e90b64a2df7ae4bc
+
+COCOAPODS: 1.7.5
