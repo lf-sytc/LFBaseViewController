@@ -1,6 +1,13 @@
 PODS:
   - LFBaseViewController (0.1.0):
+    - LFBaseViewController/BaseNavigationController (= 0.1.0)
+    - LFBaseViewController/BaseTableViewController (= 0.1.0)
     - LFBaseViewController/BaseViewController (= 0.1.0)
+    - LFUIKit
+  - LFBaseViewController/BaseNavigationController (0.1.0):
+    - LFUIKit
+  - LFBaseViewController/BaseTableViewController (0.1.0):
+    - LFBaseViewController/BaseViewController
     - LFUIKit
   - LFBaseViewController/BaseViewController (0.1.0):
     - LFUIKit
@@ -18,7 +25,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LFBaseViewController: 260de084eb607bafda96e7f0fffeb32488f9da8e
+  LFBaseViewController: 821e1f8f0ca3f45d6186db23517a70e950ea5fa2
   LFUIKit: 922afa56d276a09c0a1ea6e003cc3d858c281e57
 
 PODFILE CHECKSUM: b4d972830a19cbef10555b35e90b64a2df7ae4bc

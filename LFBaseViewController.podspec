@@ -19,5 +19,14 @@ TODO: Add long description of the pod here.
   s.subspec 'BaseViewController' do |s1|
       s1.source_files = 'LFBaseViewController/Classes/BaseViewController/*'
   end
+  s.subspec 'BaseNavigationController' do |s2|
+      s2.source_files = 'LFBaseViewController/Classes/BaseNavigationController/*'
+  end
+  
+  s.subspec 'BaseTableViewController' do |s3|
+      s3.source_files = 'LFBaseViewController/Classes/BaseTableViewController/*'
+      s3.dependency 'LFBaseViewController/BaseViewController'
+  end
+  
   s.dependency 'LFUIKit'
 end
